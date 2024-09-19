@@ -1,0 +1,66 @@
+.header-OuterBox {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 10vh;
+    color: rgb(242, 235, 235);
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+}
+
+.nav_black {
+    background-color: rgb(red, green, blue);
+}
+
+.headerBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerBox-left {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    flex: 1; /* Take up available space */
+}
+
+.headerBox-left ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.headerBox-left ul li {
+    display: inline-block;
+    margin-right: 20px; /* Add spacing between items */
+}
+
+.headerBox-right {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    flex: 1; /* Take up available space */
+}
+
+.headerBox-right ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.headerBox-right ul li {
+    display: inline-block;
+    margin-left: 20px; /* Add spacing between items */
+}

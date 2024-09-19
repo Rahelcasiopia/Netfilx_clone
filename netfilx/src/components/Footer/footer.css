@@ -1,0 +1,53 @@
+.footer-outerBox{
+    background-color: black;
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+.footerBox{
+    width:60% ;
+}
+.footer-icons{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    color: white;
+}
+.footer-data{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-data ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12vh;
+}
+.footer-data ul ls{
+    cursor: pointer;
+}
+.server-code {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers content both vertically and horizontally */
+    border: #fff 1px solid;
+    width: 10%; /* Ensure this width is sufficient */
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 100px; /* Optional: Add padding for better spacing inside */
+}
+
+.server-code > * {
+    margin: 0; /* Remove extra margins on children */
+}
+
+.cody-write{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+
+
+
